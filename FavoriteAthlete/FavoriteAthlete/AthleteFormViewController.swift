@@ -26,6 +26,7 @@ class AthleteFormViewController: UIViewController {
         
         performSegue(withIdentifier: "unwindToAthleteTableViewController", sender: self)
     }
+    
     var athlete: Athlete?
     
     init?(coder: NSCoder, athlete: Athlete?) {
